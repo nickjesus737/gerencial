@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <title>Gerencia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="../estilos/estilos.css" media="screen">
+
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script type="text/javascript" src="../scripts/load.js"></script>
+        <script type="text/javascript" src="../scripts/mostrar.js"></script>
+
+        <script type="text/javascript" src="../scripts/charts/pieChart.js"></script>
+        <script type="text/javascript" src="../scripts/charts/areaChart.js"></script>
+    </head>
+
+    <body>
+        <h1 class="titulo">Estadisticas</h1>
+        <nav>
+            <a href="../index.html">Información Empresa</a>
+            <a href="../proyecto/proyecto.html">Proyectos</a>
+            <a href="../gerencia/gerente.html">Gerencia</a>
+            <a href="../presidente/presidente.html">Presidente</a>
+        </nav>
+        <div>
+            <div class="selector">
+                <select id="opciones">
+                    <option value="1">Proyecto</option>
+                    <option value="2">Gerencia</option>
+                    <option value="3">Presidente</option>
+                </select>
+            </div>
+            <div id="div_1" class="contenido">
+                <div id="proyecto1" class="grafico"></div>
+                <div id="proyecto2" class="grafico"></div>
+            </div>
+            <div id="div_2" class="contenido">
+
+            </div>
+            <div id="div_3" class="contenido">
+
+            </div>
+        </div>
+        <div class="footer">
+            <p>Triple J Soluciones</p>
+        </div>
+    </body>
+</html>
