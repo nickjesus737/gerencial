@@ -54,13 +54,13 @@
     [ 'Empleado 6', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
     [ 'Empleado 7', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
     [ 'Empleado 8', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
-    [ 'Empleado 9', 'Transición', new Date(2000, 5, 1),  new Date(2000, 5, 30) ],
-    [ 'Empleado 10', 'Transición', new Date(2000, 5, 1),  new Date(2000, 5, 30) ]]);
+    [ 'Empleado 9', 'Transición', new Date(2000, 1, 1),  new Date(2000, 5, 30) ],
+    [ 'Empleado 10', 'Transición', new Date(2000, 1, 1),  new Date(2000, 5, 30) ]]);
 
     var options = {
         title: 'Personas asignadas a las fases',      
         width: '100%', 
-        height: '100%'	  
+        height: 350	  
     };
           
     // Instantiate and draw the chart.
