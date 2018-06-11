@@ -14,6 +14,7 @@ body{
     top: 0;
     overflow: hidden;
     width: 100%;
+    z-index: 1;
 }
 
 nav{
@@ -23,6 +24,7 @@ nav{
     position: fixed;
     top: 69px;
     width: 100%;
+    z-index: 1;
 }
 
 nav a{
@@ -152,9 +154,6 @@ nav a:hover{
 }
 
 .grafico{
-    -moz-z-index: -1;
-    -ms-z-index: -1;
-    z-index: -1;
     margin: 0 auto;
     grid-area: grafico;
     width: 550px;
