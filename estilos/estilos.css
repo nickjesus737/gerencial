@@ -40,6 +40,61 @@ nav a:hover{
     color: white;
 }
 
+.info{
+    margin: auto;
+    margin-top: 140px;
+    width: 1000px;
+}
+
+.dc{ 
+    width: 270px; 
+    height: 400px;
+    border-radius: 45px 44px 42px 46px;
+    -moz-border-radius: 45px 44px 42px 46px;
+    -webkit-border-radius: 45px 44px 42px 46px;
+    border: 1px solid #ffffff;
+    padding: 0 1em;
+    margin: 0 10px;
+    float: left;
+    text-align: center;
+}
+
+.dc h3{
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.dc ul{
+    text-align: left;
+}
+
+#c1{ 
+    background-color: #25BFBD;
+} 
+
+#c2{ 
+    background-color:#F8B42B;
+}
+
+#c3{
+    background-color: #2AE566;
+}
+
+#organigrama{
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    width: 95%;
+    height: 830px;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-left: 30px;
+}
+
+
 .content{
     margin-top: 120px;
 }
