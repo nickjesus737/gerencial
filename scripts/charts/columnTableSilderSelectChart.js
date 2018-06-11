@@ -50,15 +50,10 @@ function drawMainDashboard() {
             }
         }
     });
-    var pie = new google.visualization.ChartWrapper({
-        'chartType': 'PieChart',
+    var column = new google.visualization.ChartWrapper({
+        'chartType': 'ColumnChart',
         'containerId': 'chart1',
         'options': {
-            'width': 300,
-            'height': 300,
-            'legend': 'none',
-            'chartArea': { 'left': 15, 'top': 15, 'right': 0, 'bottom': 0 },
-            'pieSliceText': 'label'
         },
         'view': { 'columns': [0, 3] }
     });
@@ -73,13 +68,13 @@ function drawMainDashboard() {
         ['Michael', 'Angular', 'Php', 12, 'Web'],
         ['Elisa', 'React', 'Django', 20, 'Android'],
         ['Robert', 'Angular', 'Laravel', 7, 'Web'],
-        ['John', 'Vuejs', 'Ruby on rails', 54, 'iOs'],
+        ['John', 'Vuejs', 'Ruby on Rails', 54, 'iOs'],
         ['Jessica', 'React', 'Django', 22, 'Android'],
         ['Aaron', 'Angular', 'Django', 3, 'Web'],
         ['Margareth', 'Vuejs', 'Laravel', 42, 'Web'],
         ['Miranda', 'React', 'Ruby on Rails',33, 'iOs']
     ]);
-    dashboard.bind([slider, categoryPicker, categoryPicker2, categoryPicker3], [pie, table]);
+    dashboard.bind([slider, categoryPicker, categoryPicker2, categoryPicker3], [table, column]);
     dashboard.draw(data);
 }
 
