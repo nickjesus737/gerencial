@@ -57,6 +57,13 @@ nav a:hover{
     margin: 0 10px;
     float: left;
     text-align: center;
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+}
+
+.dc:hover{
+    box-shadow: 0px 0px 15px 3px #888888;
 }
 
 .dc h3{
@@ -64,12 +71,17 @@ nav a:hover{
     text-align: center;
 }
 
+.dc p{
+    font-size: 1.2em;
+    text-align: justify;
+}
+
 .dc ul{
     text-align: left;
 }
 
 #c1{ 
-    background-color: #25BFBD;
+    background-color: rgb(70, 138, 177);
 } 
 
 #c2{ 
@@ -93,7 +105,6 @@ nav a:hover{
     box-sizing: border-box;
     margin-left: 30px;
 }
-
 
 .content{
     margin-top: 120px;
@@ -141,6 +152,8 @@ nav a:hover{
 }
 
 .grafico{
+    -moz-z-index: -1;
+    -ms-z-index: -1;
     z-index: -1;
     margin: 0 auto;
     grid-area: grafico;
