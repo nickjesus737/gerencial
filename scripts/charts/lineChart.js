@@ -26,7 +26,9 @@ function drawChart() {
        },
        vAxis: {
           title: 'Temperature'
-       }
+       },
+       lineWidth: 2,
+       pointSize: 4,
     };
 
     // Instantiate and draw the chart.
