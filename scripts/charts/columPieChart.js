@@ -26,10 +26,10 @@ function drawChart() {
     var view = new google.visualization.DataView(data);
     view.setColumns([0, 1]);
   
-    var table = new google.visualization.Table(document.getElementById('proyecto11-1'));
+    var table = new google.visualization.Table(document.getElementById('proyecto11-2'));
     table.draw(view, {width: '100%', height: '100%'});
   
-    var chart = new google.visualization.ColumnChart(document.getElementById('proyecto11-2'));
+    var chart = new google.visualization.ColumnChart(document.getElementById('proyecto11-1'));
     chart.draw(view);
   
     google.visualization.events.addListener(table, 'sort',

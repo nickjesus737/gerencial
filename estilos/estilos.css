@@ -58,10 +58,42 @@ nav a:hover{
     width: 100%;
 }
 
+.grid{
+    display: grid;
+    float: left;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 80px 210px;
+    grid-template-areas: 
+    'grafico titulo'
+    'grafico texto'
+    'grafico texto';
+}
+
 .grafico{
     float: left;
-    width: 33%; 
-    height: 400px;
+    margin: 0 auto;
+    grid-area: grafico;
+    width: 550px;
+}
+
+.-p{
+    margin: 50px 0;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.title{
+    font-size: 2em;
+    text-align: center;
+    grid-area: titulo;
+}
+
+.texto{
+    grid-area: texto;
+    padding: 0 1em;
+    text-align: justify;
 }
 
 .doble{
