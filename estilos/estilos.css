@@ -177,6 +177,66 @@ nav a:hover{
     text-align: justify;
 }
 
+.grid-e{
+    display: grid;
+    float: left;
+    width: 100%;
+    height: 350px;
+
+    grid-template-columns: 45% 55%;
+    grid-template-rows: 80px 180px;
+    grid-template-areas: 
+    'grafico titulo'
+    'grafico texto';
+}
+
+.gauge{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.gauge div{
+    display: inline-block;
+}
+
+.masMenos{
+    text-align: center;
+    height: 50px;
+}
+
+.masMenos input{
+    font-size: 1.2em;
+    margin-left: 1em;
+}
+
+.multiples{
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.multiples table{
+    width: 100%;
+    text-align: center;
+}
+
+.multiples table th{
+    padding: .7em;
+}
+
+.multiples table tr{
+    margin-bottom: 20px;
+}
+
+.multiples table td{
+    width: 25%;
+    padding-bottom: 20px;
+    padding-top: 0;
+}
+
+#chart1{
+    height: 330px;
+}
+
 @media screen and (max-width: 900px){
 
 }

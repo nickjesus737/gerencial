@@ -16,7 +16,7 @@ function drawChart() {
     // Set chart options
     var options = {'title' : 'Ganancias por Tecnología',
        hAxis: {
-          title: 'Teacnologia'
+          title: 'Tecnologia'
        },
        vAxis: {
           title: 'Ganancias'

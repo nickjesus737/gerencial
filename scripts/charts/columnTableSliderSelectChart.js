@@ -54,6 +54,12 @@ function drawMainDashboard() {
         'chartType': 'ColumnChart',
         'containerId': 'chart1',
         'options': {
+            hAxis: {
+                title: 'Proyecto'
+             },
+             vAxis: {
+                title: 'Desarrolladores'
+             },
         },
         'view': { 'columns': [0, 3] }
     });
