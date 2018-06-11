@@ -41,22 +41,30 @@
  function drawChart2() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
-    data.addColumn({ type: 'string', id: 'Name' });
+    data.addColumn({ type: 'string', id: 'Nombre' });
+    data.addColumn({ type: 'string', id: 'Fase' });
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-    [ 'George Washington', new Date(1789, 3, 30), new Date(1797, 2, 4) ],
-    [ 'John Adams',      new Date(1797, 2, 4),  new Date(1801, 2, 4) ],
-    [ 'Thomas Jefferson',  new Date(1801, 2, 4),  new Date(1809, 2, 4) ]]);
+    [ 'Empleado 1', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
+    [ 'Empleado 2', 'Inicio', new Date(2000, 0, 1),  new Date(2000, 0, 31) ],
+    [ 'Empleado 3', 'Elaboración', new Date(2000, 1, 1),  new Date(2000, 1, 29) ],
+    [ 'Empleado 4', 'Elaboración', new Date(2000, 1, 1),  new Date(2000, 1, 29) ],
+    [ 'Empleado 5', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
+    [ 'Empleado 6', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
+    [ 'Empleado 7', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
+    [ 'Empleado 8', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
+    [ 'Empleado 9', 'Transición', new Date(2000, 5, 1),  new Date(2000, 5, 30) ],
+    [ 'Empleado 10', 'Transición', new Date(2000, 5, 1),  new Date(2000, 5, 30) ]]);
 
     var options = {
-        title: 'Fases del proyecto',      
-       width: '100%', 
-       height: '100%'	  
+        title: 'Personas asignadas a las fases',      
+        width: '100%', 
+        height: '100%'	  
     };
           
     // Instantiate and draw the chart.
-    var chart = new google.visualization.Timeline(document.getElementById('proyecto8'));
+    var chart = new google.visualization.Timeline(document.getElementById('timelineChart2'));
     chart.draw(data, options);
  }
 

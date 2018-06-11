@@ -1,27 +1,25 @@
 function drawChart() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Browser');
-    data.addColumn('number', 'Percentage');
+    data.addColumn('string', 'Fase del Proyecto');
+    data.addColumn('number', 'Tiempo');
     data.addRows([
-       ['Firefox', 45.0],
-       ['IE', 26.8],
-       ['Chrome', 12.8],
-       ['Safari', 8.5],
-       ['Opera', 6.2],
-       ['Others', 0.7]
+       ['Inicio', 10],
+       ['Elaboración', 30],
+       ['Construcción', 60],
+       ['Transición', 20]
     ]);
        
     // Set chart options
     var options = {
-       'title':'Browser market shares at a specific website, 2014',
-       'width':550,
-       'height':400,
+       'title':'Tiempo de ejecucuión de cada fase del proyecto',
+       'width': '100%',
+       'height': '100%',
        pieHole: 0.4
     };
 
     // Instantiate and draw the chart.
-    var chart = new google.visualization.PieChart(document.getElementById('proyecto5'));
+    var chart = new google.visualization.PieChart(document.getElementById('donutChart'));
     chart.draw(data, options);
  }
  google.charts.setOnLoadCallback(drawChart);
