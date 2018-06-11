@@ -20,7 +20,7 @@ function drawChart() {
 
     var options = {
         width: '600',
-        title: 'Burndown Chart',
+        title: 'Burndown Chart segunda iteración',
         hAxis: {
             title: 'Dias', format: '#', viewWindow: { min: 0, max: 38 },
             gridlines: { count: 10 }

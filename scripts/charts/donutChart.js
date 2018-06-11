@@ -5,14 +5,14 @@ function drawChart() {
     data.addColumn('number', 'Tiempo');
     data.addRows([
        ['Inicio', 10],
-       ['Elaboración', 30],
-       ['Construcción', 60],
-       ['Transición', 20]
+       ['Elaboración', 13],
+       ['Construcción', 20],
+       ['Transición', 40]
     ]);
        
     // Set chart options
     var options = {
-       'title':'Tiempo de ejecucuión de cada fase del proyecto',
+       'title':'Tiempo de ejecucuión de cada fase del proyecto en semanas',
        'width': '100%',
        'height': '100%',
        pieHole: 0.4

@@ -46,16 +46,16 @@
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-    [ 'Empleado 1', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Empleado 2', 'Inicio', new Date(2000, 0, 1),  new Date(2000, 0, 31) ],
-    [ 'Empleado 3', 'Elaboración', new Date(2000, 1, 1),  new Date(2000, 1, 29) ],
-    [ 'Empleado 4', 'Elaboración', new Date(2000, 1, 1),  new Date(2000, 1, 29) ],
-    [ 'Empleado 5', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
-    [ 'Empleado 6', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
-    [ 'Empleado 7', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
-    [ 'Empleado 8', 'Contrucción', new Date(2000, 2, 1),  new Date(2000, 4, 31) ],
-    [ 'Empleado 9', 'Transición', new Date(2000, 1, 1),  new Date(2000, 5, 30) ],
-    [ 'Empleado 10', 'Transición', new Date(2000, 1, 1),  new Date(2000, 5, 30) ]]);
+    [ 'Empleado 1', 'Inicio', new Date(2000, 0, 1), new Date(2000, 3, 15) ],
+    [ 'Empleado 2', 'Inicio', new Date(2000, 0, 1),  new Date(2000, 3, 15) ],
+    [ 'Empleado 3', 'Elaboración', new Date(2000, 1, 29),  new Date(2000, 4, 30) ],
+    [ 'Empleado 4', 'Elaboración', new Date(2000, 1, 29),  new Date(2000, 4, 30) ],
+    [ 'Empleado 5', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
+    [ 'Empleado 6', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
+    [ 'Empleado 7', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
+    [ 'Empleado 8', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
+    [ 'Empleado 9', 'Transición', new Date(2000, 1, 1),  new Date(2000, 10, 30) ],
+    [ 'Empleado 10', 'Transición', new Date(2000, 1, 1),  new Date(2000, 10, 30) ]]);
 
     var options = {
         title: 'Personas asignadas a las fases',      
