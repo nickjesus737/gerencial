@@ -24,6 +24,32 @@ function drawMainDashboard() {
             }
         }
     });
+    var categoryPicker2 = new google.visualization.ControlWrapper({
+        'controlType': 'CategoryFilter',
+        'containerId': 'picker2',
+        'options': {
+            'filterColumnIndex': 2,
+            'ui': {
+                'labelStacking': 'vertical',
+                'label': 'Back-end:',
+                'allowTyping': false,
+                'allowMultiple': false
+            }
+        }
+    });
+    var categoryPicker3 = new google.visualization.ControlWrapper({
+        'controlType': 'CategoryFilter',
+        'containerId': 'picker3',
+        'options': {
+            'filterColumnIndex': 4,
+            'ui': {
+                'labelStacking': 'vertical',
+                'label': 'Back-end:',
+                'allowTyping': false,
+                'allowMultiple': false
+            }
+        }
+    });
     var pie = new google.visualization.ChartWrapper({
         'chartType': 'PieChart',
         'containerId': 'chart1',
@@ -53,7 +79,7 @@ function drawMainDashboard() {
         ['Margareth', 'Vuejs', 'Laravel', 42, 'Web'],
         ['Miranda', 'React', 'Ruby on Rails',33, 'iOs']
     ]);
-    dashboard.bind([slider, categoryPicker], [pie, table]);
+    dashboard.bind([slider, categoryPicker, categoryPicker2, categoryPicker3], [pie, table]);
     dashboard.draw(data);
 }
 
