@@ -1,1 +1,1 @@
-google.charts.load('current', { packages: ['corechart', 'line', 'table', 'timeline', 'gauge', 'controls'] });     
+google.charts.load('current', { packages: ['corechart', 'line', 'table', 'timeline', 'gauge', 'controls', 'bar'] });     

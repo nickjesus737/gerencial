@@ -1,38 +1,32 @@
 function drawChart() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Month');
-    data.addColumn('number', 'Tokyo');
+    data.addColumn('string', 'Tecnologia');
+    data.addColumn('number', 'Ganancias');
     data.addRows([
-       ['Jan',  7.0],
-       ['Feb',  6.9],
-       ['Mar',  9.5],
-       ['Apr',  14.5],
-       ['May',  18.2],
-       ['Jun',  21.5],
-       
-       ['Jul',  25.2],
-       ['Aug',  26.5],
-       ['Sep',  23.3],
-       ['Oct',  18.3],
-       ['Nov',  13.9],
-       ['Dec',  9.6]
+       ['Angular',  3500000],
+       ['Veujs',  2000000],
+       ['React',  1500000],
+       ['Django',  3000000],
+       ['Laravel',  2100000],
+       ['Ruby On Rails',  1700000],
+       ['PHP',  1000000]
     ]);
        
     // Set chart options
-    var options = {'title' : 'Average Temperatures of Cities',
+    var options = {'title' : 'Ganancias por Tecnología',
        hAxis: {
-          title: 'Month'
+          title: 'Teacnologia'
        },
        vAxis: {
-          title: 'Temperature'
+          title: 'Ganancias'
        },
        lineWidth: 2,
        pointSize: 4,
     };
 
     // Instantiate and draw the chart.
-    var chart = new google.visualization.LineChart(document.getElementById('proyecto4'));
+    var chart = new google.visualization.LineChart(document.getElementById('lineChart'));
     chart.draw(data, options);
  }
  google.charts.setOnLoadCallback(drawChart);

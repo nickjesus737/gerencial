@@ -1,5 +1,5 @@
 function drawMainDashboard() {
-    var dashboard = new google.visualization.Dashboard(document.getElementById('proyecto12'));
+    var dashboard = new google.visualization.Dashboard(document.getElementById('columnTableSliderSelectChart'));
     var slider = new google.visualization.ControlWrapper({
         'controlType': 'NumberRangeFilter',
         'containerId': 'slider',
