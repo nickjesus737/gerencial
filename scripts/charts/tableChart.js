@@ -13,11 +13,12 @@ function drawChart() {
 
     var options = {
        showRowNumber: true,
-       width: '100%'
+       width: '100%',
+       height: '250px'
     };
           
     // Instantiate and draw the chart.
-    var chart = new google.visualization.Table(document.getElementById('proyecto7'));
+    var chart = new google.visualization.Table(document.getElementById('tableChart'));
     chart.draw(data, options);
  }
- google.charts.setOnLoadCallback(drawChart);
+ google.charts.setOnLoadCallback(drawChart); 
