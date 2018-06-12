@@ -241,7 +241,7 @@ nav a:hover{
     margin: auto auto;
 }
 
-#burnDownChart1{
+#burnDownChart1, #burnDownChart2, #burnDownChart3, #burnDownChart4, #burnDownChart5{
     margin: 0;
     padding-bottom: 80px;
 }
