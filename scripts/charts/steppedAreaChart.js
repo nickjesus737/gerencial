@@ -23,11 +23,11 @@ function drawChart1() {
     // Define the chart to be drawn.
     var data = google.visualization.arrayToDataTable([
        ['Proyectos', 'Vuejs', 'Ruby on Rails', 'React', 'Laravel', 'JavaScript', 'HTML5', 'Django', 'CSS', 'Angular'],
-       ['Empleado 1', 10, 0, 0, 30, 0, 0, 30, 10, 20],
-       ['Empleado 2', 0, 0, 30, 0, 10, 20, 0, 40, 0],
-       ['Empleado 3', 30, 10, 0, 30, 30, 0, 0, 0, 0],
-       ['Empleado 4', 5, 15, 20, 50, 10, 0, 0, 0, 0],
-       ['Empleado 5', 0, 0, 50, 0, 0, 20, 0, 30, 0],
+       ['Juan Benitez', 10, 0, 0, 30, 0, 0, 30, 10, 20],
+       ['Jenniffer Alvarez', 0, 0, 30, 0, 10, 20, 0, 40, 0],
+       ['Jesús Acendra', 30, 10, 0, 30, 30, 0, 0, 0, 0],
+       ['Martin Monroy', 5, 15, 20, 50, 10, 0, 0, 0, 0],
+       ['Plinio Puello', 0, 0, 50, 0, 0, 20, 0, 30, 0],
     ]);
 
     var options = {
@@ -44,11 +44,11 @@ function drawChart1() {
     // Define the chart to be drawn.
     var data = google.visualization.arrayToDataTable([
        ['Proyectos', 'Proyecto 1', 'Proyecto 2', 'Proyecto 3', 'Proyecto 4', 'Proyecto 5'],
-       ['Empleado 1', 50, 10, 20, 10, 10],
-       ['Empleado 2', 10, 30, 0, 50, 10],
-       ['Empleado 3', 30, 20, 20, 0, 30],
-       ['Empleado 4', 20, 0, 60, 10, 10],
-       ['Empleado 5', 0, 30, 0, 30, 40],
+       ['Juan Benitez', 50, 10, 20, 10, 10],
+       ['Jenniffer Alvarez', 10, 30, 0, 50, 10],
+       ['Jesús Acendra', 30, 20, 20, 0, 30],
+       ['Martin Monroy', 20, 0, 60, 10, 10],
+       ['Plinio Puello', 0, 30, 0, 30, 40],
     ]);
 
     var options = {

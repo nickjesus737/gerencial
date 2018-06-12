@@ -48,31 +48,31 @@ function drawChart1() {
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-        ['Empleado 1', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
-        ['Empleado 2', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
-        ['Empleado 3', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
-        ['Empleado 4', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
-        ['Empleado 5', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
-        ['Empleado 6', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
-        ['Empleado 7', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
-        ['Empleado 8', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
-        ['Empleado 9', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 10', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 11', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 12', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 13', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 14', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 15', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 16', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 17', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 18', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 19', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 20', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
-        ['Empleado 21', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
-        ['Empleado 22', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
-        ['Empleado 23', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
-        ['Empleado 24', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
-        ['Empleado 25', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)]]);
+        ['Luis Montalvo', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
+        ['Jose Lorca', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
+        ['Javier Casas', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
+        ['Maria Nieves', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15)],
+        ['Amparo Cañada', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
+        ['Eugenio Reyes', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
+        ['Mercedes Mosquera', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
+        ['Cristian Morgado', 'Elaboración', new Date(2018, 1, 29), new Date(2018, 4, 30)],
+        ['Jose Vallejo', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Jose Ibañez', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Rosario Coll', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Esperanza Verde', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Catalina Anaya', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Maria Escalona', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Martin Monroy', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['David Aragones', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['David Marmol', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Marc Ledo', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Rocio Cornejo', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Juan Carlos Bustamante', 'Contrucción', new Date(2018, 4, 1), new Date(2018, 8, 30)],
+        ['Monica Gordon', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
+        ['Maria Arrabal', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
+        ['Jesus Marchena', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
+        ['Marcos Segura', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)],
+        ['Joseph Arques', 'Transición', new Date(2018, 1, 1), new Date(2018, 10, 30)]]);
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart1'));
@@ -87,21 +87,21 @@ function drawChart2() {
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-        ['Empleado 1', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
-        ['Empleado 2', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
-        ['Empleado 3', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
-        ['Empleado 4', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
-        ['Empleado 5', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
-        ['Empleado 6', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
-        ['Empleado 7', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 8', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 9', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 10', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 11', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 12', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
-        ['Empleado 13', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)],
-        ['Empleado 14', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)],
-        ['Empleado 15', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)]]);
+        ['Juan Benitez', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
+        ['Maria Londoño', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
+        ['Monica Nogales', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12)],
+        ['Antonia Araujo', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
+        ['Esther Caro', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
+        ['Vincent Maria', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23)],
+        ['Ruben Mira', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Daniel Arjona', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Marta Palacios', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Patricia Orta', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Lorena Palazaon', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Alfredo Villanueva', 'Contrucción', new Date(2018, 2, 23), new Date(2018, 5, 8)],
+        ['Francisco Galan', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)],
+        ['Ignacio Pablo', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)],
+        ['Silvia Polo', 'Transición', new Date(2018, 1, 23), new Date(2018, 7, 6)]]);
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart2'));
@@ -116,26 +116,26 @@ function drawChart3() {
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-        ['Empleado 1', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
-        ['Empleado 2', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
-        ['Empleado 3', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
-        ['Empleado 4', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
-        ['Empleado 5', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
-        ['Empleado 6', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
-        ['Empleado 7', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 8', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 9', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 10', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 11', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 12', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 13', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 14', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 15', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 16', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
-        ['Empleado 17', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
-        ['Empleado 18', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
-        ['Empleado 19', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
-        ['Empleado 20', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)]]);
+        ['Veronica Palmer', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
+        ['Milagros Vela', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
+        ['Juan Izquierdo', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2)],
+        ['Jose Coronado', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
+        ['Cristian Nevado', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
+        ['Julio Fajardo', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30)],
+        ['Teresa Balboa', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Maria Tapia', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Eduardo Salado', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Julio Segovia', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Ignacio Fuente', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Jenniffer Alvarez', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Samuel Terron', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Lucia Manso', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Silvia Rius', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Sebastian Gallo', 'Contrucción', new Date(2017, 10, 30), new Date(2018, 3, 22)],
+        ['Ana Espinoza', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
+        ['Joan Mosquera', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
+        ['Jose Ferrando', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)],
+        ['Juan Huertas', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 22)]]);
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart3'));
@@ -150,16 +150,16 @@ function drawChart4() {
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-        ['Empleado 1', 'Inicio', new Date(2018, 4, 14), new Date(2018, 5, 8)],
-        ['Empleado 2', 'Elaboración', new Date(2018, 5, 1), new Date(2018, 5, 29)],
-        ['Empleado 3', 'Elaboración', new Date(2018, 5, 1), new Date(2018, 5, 29)],
-        ['Empleado 4', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
-        ['Empleado 5', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
-        ['Empleado 6', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
-        ['Empleado 7', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
-        ['Empleado 8', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
-        ['Empleado 9', 'Transición', new Date(2018, 5, 1), new Date(2018, 9, 22)],
-        ['Empleado 10', 'Transición', new Date(2018, 5, 1), new Date(2018, 9, 22)]]);
+        ['Juan Molano', 'Inicio', new Date(2018, 4, 14), new Date(2018, 5, 8)],
+        ['Jaime Florez', 'Elaboración', new Date(2018, 5, 1), new Date(2018, 5, 29)],
+        ['Ana Uribe', 'Elaboración', new Date(2018, 5, 1), new Date(2018, 5, 29)],
+        ['Susana Torrecilla', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
+        ['Ana Jerez', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
+        ['Plinio Puello', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
+        ['Daniel Angulo', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
+        ['Guillermo Ferrandez', 'Contrucción', new Date(2018, 5, 29), new Date(2018, 7, 29)],
+        ['Pedro Teran', 'Transición', new Date(2018, 5, 1), new Date(2018, 9, 22)],
+        ['Susana Badia', 'Transición', new Date(2018, 5, 1), new Date(2018, 9, 22)]]);
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart4'));
@@ -174,18 +174,18 @@ function drawChart5() {
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-        ['Empleado 1', 'Inicio', new Date(2018, 5, 11), new Date(2018, 6, 11)],
-        ['Empleado 2', 'Inicio', new Date(2018, 5, 11), new Date(2018, 6, 11)],
-        ['Empleado 3', 'Elaboración', new Date(2018, 6, 7), new Date(2018, 7, 10)],
-        ['Empleado 4', 'Elaboración', new Date(2018, 6, 7), new Date(2018, 7, 10)],
-        ['Empleado 5', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
-        ['Empleado 6', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
-        ['Empleado 7', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
-        ['Empleado 8', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
-        ['Empleado 9', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
-        ['Empleado 10', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)],
-        ['Empleado 11', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)],
-        ['Empleado 12', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)]]);
+        ['Santiago Acero', 'Inicio', new Date(2018, 5, 11), new Date(2018, 6, 11)],
+        ['Angeles Posada', 'Inicio', new Date(2018, 5, 11), new Date(2018, 6, 11)],
+        ['Carala Montañes', 'Elaboración', new Date(2018, 6, 7), new Date(2018, 7, 10)],
+        ['Fernando Moya', 'Elaboración', new Date(2018, 6, 7), new Date(2018, 7, 10)],
+        ['Maria Bocanegra', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
+        ['Jesús Acendra', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
+        ['Julian Mesa', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
+        ['Consuelo Paez', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
+        ['Jose Salva', 'Contrucción', new Date(2018, 7, 10), new Date(2018, 10, 8)],
+        ['Eugenio Sales', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)],
+        ['Jose Salom', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)],
+        ['Maria Morilla', 'Transición', new Date(2018, 6, 7), new Date(2018, 11, 27)]]);
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart5'));
