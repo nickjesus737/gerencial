@@ -1,5 +1,5 @@
-// Set chart options
-var options = {
+// Set chart options1
+var options1 = {
     'title': 'Tiempo de ejecucuión de cada fase del proyecto en semanas',
     'width': '550',
     'height': '440',
@@ -20,7 +20,7 @@ function drawChart1() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('donutChart1'));
-    chart.draw(data, options);
+    chart.draw(data, options1);
 }
 
 function drawChart2() {
@@ -37,7 +37,7 @@ function drawChart2() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('donutChart2'));
-    chart.draw(data, options);
+    chart.draw(data, options1);
 }
 function drawChart3() {
     // Define the chart to be drawn.
@@ -53,7 +53,7 @@ function drawChart3() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('donutChart3'));
-    chart.draw(data, options);
+    chart.draw(data, options1);
 }
 function drawChart4() {
     // Define the chart to be drawn.
@@ -69,7 +69,7 @@ function drawChart4() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('donutChart4'));
-    chart.draw(data, options);
+    chart.draw(data, options1);
 }
 function drawChart5() {
     // Define the chart to be drawn.
@@ -85,7 +85,7 @@ function drawChart5() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('donutChart5'));
-    chart.draw(data, options);
+    chart.draw(data, options1);
 }
 google.charts.setOnLoadCallback(drawChart1);
 google.charts.setOnLoadCallback(drawChart2);

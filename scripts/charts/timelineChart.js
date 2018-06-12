@@ -1,4 +1,4 @@
-var options = {
+var options2 = {
     title: 'Personas asignadas a las fases',
     width: '550',
     height: '350'
@@ -29,7 +29,7 @@ function drawChartGerente() {
         ['EasyCounts', 'Transición', new Date(2018, 5, 1), new Date(2018, 5, 13)],
         ['FastDrug', 'Inicio', new Date(2018, 5, 11), new Date(2018, 5, 13)]]);
 
-    var options1 = {
+    var optionsG = {
         title: 'Fases del proyecto',
         width: '100%',
         height: '100%'
@@ -37,7 +37,7 @@ function drawChartGerente() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChartGerente'));
-    chart.draw(data, options1);
+    chart.draw(data, optionsG);
 }
 
 function drawChart1() {
@@ -76,7 +76,7 @@ function drawChart1() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart1'));
-    chart.draw(data, options);
+    chart.draw(data, options2);
 }
 
 function drawChart2() {
@@ -105,7 +105,7 @@ function drawChart2() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart2'));
-    chart.draw(data, options);
+    chart.draw(data, options2);
 }
 
 function drawChart3() {
@@ -139,7 +139,7 @@ function drawChart3() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart3'));
-    chart.draw(data, options);
+    chart.draw(data, options2);
 }
 
 function drawChart4() {
@@ -163,7 +163,7 @@ function drawChart4() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart4'));
-    chart.draw(data, options);
+    chart.draw(data, options2);
 }
 
 function drawChart5() {
@@ -189,7 +189,7 @@ function drawChart5() {
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.Timeline(document.getElementById('timelineChart5'));
-    chart.draw(data, options);
+    chart.draw(data, options2);
 }
 
 google.charts.setOnLoadCallback(drawChartGerente);
