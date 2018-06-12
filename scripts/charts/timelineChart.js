@@ -6,26 +6,22 @@
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-    [ 'Proyecto 1', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Proyecto 1', 'Elaboración', new Date(2000, 0, 31), new Date(2000, 1, 29) ],
-    [ 'Proyecto 1', 'Construcción', new Date(2000, 1, 29), new Date(2000, 2, 31) ],
-    [ 'Proyecto 1', 'Transición', new Date(2000, 2, 31), new Date(2000, 3, 30) ],
-    [ 'Proyecto 2', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Proyecto 2', 'Elaboración', new Date(2000, 0, 31), new Date(2000, 1, 29) ],
-    [ 'Proyecto 2', 'Construcción', new Date(2000, 1, 29), new Date(2000, 2, 31) ],
-    [ 'Proyecto 2', 'Transición', new Date(2000, 2, 31), new Date(2000, 3, 30) ],
-    [ 'Proyecto 3', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Proyecto 3', 'Elaboración', new Date(2000, 0, 31), new Date(2000, 1, 29) ],
-    [ 'Proyecto 3', 'Construcción', new Date(2000, 1, 29), new Date(2000, 2, 31) ],
-    [ 'Proyecto 3', 'Transición', new Date(2000, 2, 31), new Date(2000, 3, 30) ],
-    [ 'Proyecto 4', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Proyecto 4', 'Elaboración', new Date(2000, 0, 31), new Date(2000, 1, 29) ],
-    [ 'Proyecto 4', 'Construcción', new Date(2000, 1, 29), new Date(2000, 2, 31) ],
-    [ 'Proyecto 4', 'Transición', new Date(2000, 2, 31), new Date(2000, 3, 30) ],
-    [ 'Proyecto 5', 'Inicio', new Date(2000, 0, 1), new Date(2000, 0, 31) ],
-    [ 'Proyecto 5', 'Elaboración', new Date(2000, 0, 31), new Date(2000, 1, 29) ],
-    [ 'Proyecto 5', 'Construcción', new Date(2000, 1, 29), new Date(2000, 2, 31) ],
-    [ 'Proyecto 5', 'Transición', new Date(2000, 2, 31), new Date(2000, 3, 30) ]]);
+    [ 'Modister', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 31) ],
+    [ 'Modister', 'Elaboración', new Date(2018, 1, 28), new Date(2018, 4, 15) ],
+    [ 'Modister', 'Construcción', new Date(2018, 4, 1), new Date(2018, 5, 13) ],
+    [ 'Modister', 'Transición', new Date(2018, 1, 28), new Date(2018, 5, 13) ],
+    [ 'MasterBus', 'Inicio', new Date(2018, 1, 12), new Date(2018, 2, 12) ],
+    [ 'MasterBus', 'Elaboración', new Date(2018, 1, 23), new Date(2018, 2, 23) ],
+    [ 'MasterBus', 'Construcción', new Date(2018, 2, 23), new Date(2018, 5, 8) ],
+    [ 'MasterBus', 'Transición', new Date(2018, 1, 23), new Date(2018, 5, 13) ],
+    [ 'BoardTask', 'Inicio', new Date(2017, 9, 3), new Date(2017, 10, 2) ],
+    [ 'BoardTask', 'Elaboración', new Date(2017, 9, 26), new Date(2017, 10, 30) ],
+    [ 'BoardTask', 'Construcción', new Date(2017, 10, 30), new Date(2018, 3, 22) ],
+    [ 'BoardTask', 'Transición', new Date(2017, 9, 26), new Date(2018, 5, 13) ],
+    [ 'EasyCounts', 'Inicio', new Date(2018, 4, 14), new Date(2018, 5, 8) ],
+    [ 'EasyCounts', 'Elaboración', new Date(2018, 5, 1), new Date(2018, 5, 13) ],
+    [ 'EasyCounts', 'Transición', new Date(2018, 5, 1), new Date(2018, 5, 13) ],
+    [ 'FastDrug', 'Inicio', new Date(2018, 5, 11), new Date(2018, 5, 13) ]]);
 
     var options = {
         title: 'Fases del proyecto',      
@@ -46,16 +42,16 @@
     data.addColumn({ type: 'date', id: 'Start' });
     data.addColumn({ type: 'date', id: 'End' });
     data.addRows([
-    [ 'Empleado 1', 'Inicio', new Date(2000, 0, 1), new Date(2000, 3, 15) ],
-    [ 'Empleado 2', 'Inicio', new Date(2000, 0, 1),  new Date(2000, 3, 15) ],
-    [ 'Empleado 3', 'Elaboración', new Date(2000, 1, 29),  new Date(2000, 4, 30) ],
-    [ 'Empleado 4', 'Elaboración', new Date(2000, 1, 29),  new Date(2000, 4, 30) ],
-    [ 'Empleado 5', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
-    [ 'Empleado 6', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
-    [ 'Empleado 7', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
-    [ 'Empleado 8', 'Contrucción', new Date(2000, 4, 1),  new Date(2000, 8, 30) ],
-    [ 'Empleado 9', 'Transición', new Date(2000, 1, 1),  new Date(2000, 10, 30) ],
-    [ 'Empleado 10', 'Transición', new Date(2000, 1, 1),  new Date(2000, 10, 30) ]]);
+    [ 'Empleado 1', 'Inicio', new Date(2018, 0, 1), new Date(2018, 3, 15) ],
+    [ 'Empleado 2', 'Inicio', new Date(2018, 0, 1),  new Date(2018, 3, 15) ],
+    [ 'Empleado 3', 'Elaboración', new Date(2018, 1, 29),  new Date(2018, 4, 30) ],
+    [ 'Empleado 4', 'Elaboración', new Date(2018, 1, 29),  new Date(2018, 4, 30) ],
+    [ 'Empleado 5', 'Contrucción', new Date(2018, 4, 1),  new Date(2018, 8, 30) ],
+    [ 'Empleado 6', 'Contrucción', new Date(2018, 4, 1),  new Date(2018, 8, 30) ],
+    [ 'Empleado 7', 'Contrucción', new Date(2018, 4, 1),  new Date(2018, 8, 30) ],
+    [ 'Empleado 8', 'Contrucción', new Date(2018, 4, 1),  new Date(2018, 8, 30) ],
+    [ 'Empleado 9', 'Transición', new Date(2018, 1, 1),  new Date(2018, 10, 30) ],
+    [ 'Empleado 10', 'Transición', new Date(2018, 1, 1),  new Date(2018, 10, 30) ]]);
 
     var options = {
         title: 'Personas asignadas a las fases',      
