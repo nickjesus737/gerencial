@@ -1,4 +1,4 @@
-function drawChart() {
+function drawChart1() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Fase del Proyecto');
@@ -19,7 +19,7 @@ function drawChart() {
     };
 
     // Instantiate and draw the chart.
-    var chart = new google.visualization.PieChart(document.getElementById('donutChart'));
+    var chart = new google.visualization.PieChart(document.getElementById('donutChart1'));
     chart.draw(data, options);
  }
- google.charts.setOnLoadCallback(drawChart);
+ google.charts.setOnLoadCallback(drawChart1); 

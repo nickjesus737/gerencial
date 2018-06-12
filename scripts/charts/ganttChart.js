@@ -1,10 +1,8 @@
-google.charts.setOnLoadCallback(drawChart);
-
 function daysToMilliseconds(days) {
     return days * 24 * 60 * 60 * 1000;
 }
 
-function drawChart() {
+function drawChart1() {
 
     var data = new google.visualization.DataTable();
     data.addColumn('string', 'Task ID');
@@ -32,12 +30,14 @@ function drawChart() {
               angle: 100,
               width: 2,
               color: 'black',
-              radius: 0
+              radius: 0 
             }
           }
     };
 
-    var chart = new google.visualization.Gantt(document.getElementById('ganttChart'));
+    var chart = new google.visualization.Gantt(document.getElementById('ganttChart1'));
 
     chart.draw(data, options);
 }
+
+google.charts.setOnLoadCallback(drawChart1);

@@ -1,6 +1,4 @@
-google.charts.setOnLoadCallback(drawChart);
-
-function drawChart() {
+function drawChart1() {
 
     var data = google.visualization.arrayToDataTable([
         ['Dias', 'Trabajo Restante'],
@@ -35,7 +33,10 @@ function drawChart() {
         }
     };
 
-    var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart'));
+    var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart1'));
 
-    chart.draw(data, options);
+    chart.draw(data, options); 
 }
+
+google.charts.setOnLoadCallback(drawChart1);
+
