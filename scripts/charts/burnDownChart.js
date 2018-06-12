@@ -2,7 +2,7 @@ function iteration(iteracion, max){
     var options = {
         width: '600',
         height: '440',
-        title: 'Burndown Chart '+ iteracion +' iteración',
+        title: iteracion +' iteración',
         hAxis: {
             title: 'Dias', format: '#', viewWindow: { min: 0, max: max },
             gridlines: { count: 10 }
@@ -39,7 +39,7 @@ function drawChart1() {
 
     var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart1'));
 
-    chart.draw(data, iteration('sexta', 38));
+    chart.draw(data, iteration('Sexta', 38));
 }
 
 function drawChart2() {
@@ -58,7 +58,7 @@ function drawChart2() {
 
     var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart2'));
 
-    chart.draw(data, iteration('octava', 16));
+    chart.draw(data, iteration('Octava', 16));
 }
 
 function drawChart3() {
@@ -75,7 +75,7 @@ function drawChart3() {
 
     var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart3'));
 
-    chart.draw(data, iteration('decima', 15));
+    chart.draw(data, iteration('Decima', 15));
 }
 
 function drawChart4() {
@@ -96,7 +96,7 @@ function drawChart4() {
 
     var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart4'));
 
-    chart.draw(data, iteration('cuarta', 38));
+    chart.draw(data, iteration('Cuarta', 38));
 }
 
 function drawChart5() {
@@ -111,7 +111,7 @@ function drawChart5() {
 
     var chart = new google.visualization.ColumnChart(document.getElementById('burnDownChart5'));
 
-    chart.draw(data, iteration('primera', 10));
+    chart.draw(data, iteration('Primera', 10));
 }
 
 google.charts.setOnLoadCallback(drawChart1);

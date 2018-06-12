@@ -1,6 +1,6 @@
 // Set chart options1
 var options1 = {
-    'title': 'Tiempo de ejecucuión de cada fase del proyecto en semanas',
+    'title': '',
     'width': '550',
     'height': '440',
     pieHole: 0.4

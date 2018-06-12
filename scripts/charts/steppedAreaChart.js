@@ -10,7 +10,7 @@ function drawChart1() {
     ]);
 
     var options = {
-       title: 'Tecnologias en los proyectos',
+       title: '',
        isStacked: true      
     };
           
@@ -31,7 +31,7 @@ function drawChart1() {
     ]);
 
     var options = {
-       title: 'Habilidades de los empleados',
+       title: '',
        isStacked: true      
     };
           

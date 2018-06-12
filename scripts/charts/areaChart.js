@@ -9,7 +9,7 @@ function drawChart1() {
        ['2017', 4600000, 20000000]
     ]);
 
-    var options = {title: 'Desempeño de la Compañia',
+    var options = {title: '',
        hAxis: {title: 'Año', titleTextStyle: {color: '#333'}},
        vAxis: {minValue: 0}
     };  

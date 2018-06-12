@@ -13,7 +13,7 @@ function drawChart() {
     ]);
 
     // Set chart options
-    var options = { 'title': 'Tecnologías usadas en los proyectos'};
+    var options = { 'title': ''};
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('pieChart'));

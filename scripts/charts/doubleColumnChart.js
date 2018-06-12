@@ -15,7 +15,7 @@ function drawMultSeries() {
       ]);
 
       var options = {
-        title: 'Personal Contratado y Proyectos Desarrollados',
+        title: '',
         hAxis: {
           title: 'Año',
           viewWindow: {
