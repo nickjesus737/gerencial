@@ -1,19 +1,19 @@
 function drawChart() {
     // Define the chart to be drawn.
     var data = new google.visualization.DataTable();
-    data.addColumn('string', 'Browser');
+    data.addColumn('string', 'Tecnología');
     data.addColumn('number', 'Percentage');
     data.addRows([
-        ['Firefox', 53.0],
-        ['IE', 20.8],
-        ['Chrome', 12.8],
-        ['Safari', 8.5],
-        ['Opera', 6.2],
-        ['Others', 0.7]
+        ['Angular', 3],
+        ['Django', 2],
+        ['Laravel', 2],
+        ['React', 1],
+        ['Ruby on Rails', 1],
+        ['Vuejs', 1]
     ]);
 
     // Set chart options
-    var options = { 'title': 'Browser market shares at a specific website, 2014'};
+    var options = { 'title': 'Tecnologías usadas en los proyectos'};
 
     // Instantiate and draw the chart.
     var chart = new google.visualization.PieChart(document.getElementById('pieChart'));

@@ -37,19 +37,6 @@ function drawMainDashboard() {
             }
         }
     });
-    var categoryPicker3 = new google.visualization.ControlWrapper({
-        'controlType': 'CategoryFilter',
-        'containerId': 'picker3',
-        'options': {
-            'filterColumnIndex': 4,
-            'ui': {
-                'labelStacking': 'vertical',
-                'label': 'Back-end:',
-                'allowTyping': false,
-                'allowMultiple': false
-            }
-        }
-    });
     var column = new google.visualization.ChartWrapper({
         'chartType': 'ColumnChart',
         'containerId': 'chart1',
@@ -70,17 +57,14 @@ function drawMainDashboard() {
         }
     });
     var data = google.visualization.arrayToDataTable([
-        ['Proyecto', 'Front-end', 'Back-end','# Desarrolladores', 'Sistema'],
-        ['Michael', 'Angular', 'Php', 12, 'Web'],
-        ['Elisa', 'React', 'Django', 20, 'Android'],
-        ['Robert', 'Angular', 'Laravel', 7, 'Web'],
-        ['John', 'Vuejs', 'Ruby on Rails', 54, 'iOs'],
-        ['Jessica', 'React', 'Django', 22, 'Android'],
-        ['Aaron', 'Angular', 'Django', 3, 'Web'],
-        ['Margareth', 'Vuejs', 'Laravel', 42, 'Web'],
-        ['Miranda', 'React', 'Ruby on Rails',33, 'iOs']
+        ['Proyecto', 'Front-end', 'Back-end','# Desarrolladores'],
+        ['Modister', 'Angular', 'Django', 25],
+        ['MasterBus', 'Vuejs', 'Laravel', 15],
+        ['BoardTask', 'React', 'Laravel', 20],
+        ['EasyCounts', 'Angular', 'Django', 10],
+        ['FastDrug', 'Angular', 'Ruby', 12]
     ]);
-    dashboard.bind([slider, categoryPicker, categoryPicker2, categoryPicker3], [table, column]);
+    dashboard.bind([slider, categoryPicker, categoryPicker2], [table, column]);
     dashboard.draw(data);
 }
 

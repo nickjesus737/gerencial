@@ -2,11 +2,11 @@ function drawChart1() {
     // Define the chart to be drawn.
     var data = google.visualization.arrayToDataTable([
        ['Proyectos', 'Vuejs', 'Ruby on Rails', 'React', 'Laravel', 'JavaScript', 'HTML5', 'Django', 'CSS', 'Angular'],
-       ['Proyecto 1', 0, 0, 0, 0, 5, 30, 40, 5, 20],
-       ['Proyecto 2', 10, 0, 0, 40, 10, 30, 0, 10, 0],
-       ['Proyecto 3', 0, 0, 20, 40, 10, 20, 0, 10, 0],
-       ['Proyecto 4', 0, 0, 0, 15, 15, 10, 30, 10, 20],
-       ['Proyecto 5', 0, 35, 0, 0, 20, 10, 0, 5, 30],
+       ['Modister', 0, 0, 0, 0, 5, 30, 40, 5, 20],
+       ['Master Bus', 10, 0, 0, 40, 10, 30, 0, 10, 0],
+       ['BoardTask', 0, 0, 20, 40, 10, 20, 0, 10, 0],
+       ['EasyCounts', 0, 0, 0, 15, 15, 10, 30, 10, 20],
+       ['FastDrug', 0, 35, 0, 0, 20, 10, 0, 5, 30],
     ]);
 
     var options = {
