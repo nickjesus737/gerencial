@@ -1,72 +1,66 @@
 <!doctype html>
 <html lang="es">
-    <head>
-        <title>Presidente</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="../estilos/estilos.css" media="screen">
 
-        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<head>
+    <title>Presidente</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="../estilos/estilos.css" media="screen">
 
-        <script type="text/javascript" src="../scripts/load.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
-        <script type="text/javascript" src="../scripts/charts/areaChart.js"></script>
-        <script type="text/javascript" src="../scripts/charts/doubleColumnChart.js"></script>
-        <script type="text/javascript" src="../scripts/charts/lineChart.js"></script>
-        <script type="text/javascript" src="../scripts/charts/gaugeChart.js"></script>
-    </head>
+    <script type="text/javascript" src="../scripts/load.js"></script>
 
-    <body>
-        <h1 class="titulo">Estadisticas</h1>
-        <nav>
-            <a href="../index.html">Información Empresa</a>
-            <a href="../proyecto/proyecto.html">Proyectos</a>
-            <a href="../gerencia/gerente.html">Gerencia</a>
-            <a href="../presidente/presidente.html">Presidente</a>
-        </nav>
-        <div class="content">
-            <div class="grid">
-                <div id="areaChart" class="grafico"></div>
-                <h2 class="title">Estados Financieros</h2>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid">
-                <div id="doubleColumnChart" class="grafico"></div>
-                <h2 class="title">Personal Contratado Vs Proyectos Desarrollados</h2>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid">
-                <div id="lineChart" class="grafico"></div>
-                <h2 class="title">Ganancias por Tecnología</h2>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
-            <div class="grid-e">
-                <div class="grafico gauge">
-                    <div id="gaugeChart1"></div>
-                    <div id="gaugeChart2"></div>
-                </div>
-                <div class="masMenos">
-                    <input type="button" value="Más Proyectos" onclick="changeTemp(1)" />
-                    <input type="button" value="Menos Proyectos" onclick="changeTemp(-1)" />
-                </div>
-                <h2 class="title">Estado de personal y proyectos</h2>
-                <p class="texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+    <script type="text/javascript" src="../scripts/charts/areaChart.js"></script>
+    <script type="text/javascript" src="../scripts/charts/doubleColumnChart.js"></script>
+    <script type="text/javascript" src="../scripts/charts/lineChart.js"></script>
+    <script type="text/javascript" src="../scripts/charts/gaugeChart.js"></script>
+</head>
+
+<body>
+    <h1 class="titulo">Estadisticas</h1>
+    <nav>
+        <a href="../index.html">Información Empresa</a>
+        <a href="../proyecto/proyecto.html">Proyectos</a>
+        <a href="../gerencia/gerente.html">Gerencia</a>
+        <a href="../presidente/presidente.html">Presidente</a>
+    </nav>
+    <div class="content">
+        <div class="grid">
+            <div id="areaChart" class="grafico"></div>
+            <h2 class="title">Estados Financieros</h2>
+            <p class="texto">Ver los estados financieros de la empresa al pasar de los años, comparando los gastos manejados con la utilidad
+                que se va obteniendo.</p>
         </div>
-        <div class="footer">
-            <p>Triple J Soluciones</p>
+        <div class="grid">
+            <div id="doubleColumnChart" class="grafico"></div>
+            <h2 class="title">Personal Contratado Vs Proyectos Desarrollados</h2>
+            <p class="texto">Personal Contratado Vs Proyectos Desarrollados, ver el crecimiento de la empresa en personal contratados, y como
+                está teniendo una proporción directa con el crecimiento de proyectos elaborados por año. </p>
         </div>
-    </body>
+        <div class="grid">
+            <div id="lineChart" class="grafico"></div>
+            <h2 class="title">Ganancias por Tecnología</h2>
+            <p class="texto">Conocer las ganancias directas que está generando el desarrollo de proyectos de acuerdo a la tecnología implementada,
+                todo con base a los costos que esta genera en personal e implementos y los ingresos del mismo.</p>
+        </div>
+        <div class="grid-e">
+            <div class="grafico gauge">
+                <div id="gaugeChart1"></div>
+                <div id="gaugeChart2"></div>
+            </div>
+            <div class="masMenos">
+                <input type="button" value="Más Proyectos" onclick="changeTemp(1)" />
+                <input type="button" value="Menos Proyectos" onclick="changeTemp(-1)" />
+            </div>
+            <h2 class="title">Estado de personal y proyectos</h2>
+            <p class="texto">Simulador de número de empleados y el efecto que puede tener con el número de proyectos que se pueden llegar
+                a desarrollar. </p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Triple J Soluciones</p>
+    </div>
+</body>
+
 </html>

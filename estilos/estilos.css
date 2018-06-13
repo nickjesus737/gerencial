@@ -172,6 +172,7 @@ nav a:hover{
 }
 
 .texto{
+    font-size: 1.4em;
     grid-area: texto;
     padding: 0 1em;
     text-align: justify;
